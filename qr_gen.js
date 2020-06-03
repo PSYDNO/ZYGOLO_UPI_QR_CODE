@@ -9,7 +9,7 @@ _a[5]='tr='
 _a[6]='tn='+urlParams['custm_msg']
 _a[7]='am='+urlParams['amt']
 _a[8]='cu=INR'
-_a[9]='refUrl=https://business.paytm.com/payment-gateway'
+_a[9]='refUrl=https://zygolo.github.io/preview/main/'
 
 _b='',_s=''
 for (_b in _a)
