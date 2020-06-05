@@ -1,3 +1,6 @@
+var obj = new BigEval();
+result=obj.exec(urlParams['amt'])
+  
 
 _a=[]
 _a[0]='upi://pay'
@@ -7,7 +10,7 @@ _a[3]='mc=0000'
 _a[4]='tid='
 _a[5]='tr='
 _a[6]='tn='+urlParams['custm_msg']
-_a[7]='am='+urlParams['amt']
+_a[7]='am='+result
 _a[8]='cu=INR'
 _a[9]='refUrl=https://zygolo.github.io/preview/main/'
 
