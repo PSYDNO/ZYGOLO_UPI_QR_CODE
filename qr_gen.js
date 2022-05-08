@@ -30,10 +30,11 @@ for (_b in _a)
 new QRCode(document.getElementById("qrcode"), _s);
 console.log(qrcode)
 var a = document.createElement('a');  
-var link = document.createTextNode("This is link"); 
-  a.appendChild(link)
+var link = document.createTextNode(" upi "); 
+ 
+a.appendChild(link);
   
-a.title = "This is Link"; 
-  a.href = "https://www.geeksforgeeks.org";  
+a.title = "UPI Link"; 
+  a.href = _s;  
 
           document.body.appendChild(a)    ;    
