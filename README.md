@@ -1,4 +1,4 @@
-# ZYGOLO_UPI_QR_CODE
+
 
 
 making it private as its associated with UPI PAYMENTS
