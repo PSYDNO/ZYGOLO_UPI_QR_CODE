@@ -6,7 +6,7 @@ _a=[]
 _a[0]='upi://pay'
 _a[1]='pa='+urlParams['pa']
 _a[2]='pn='+urlParams['pn']
-_a[3]='mc=|
+_a[3]='mc='
 _a[4]='tid='
 _a[5]='tr='
 _a[6]='tn='+urlParams['custm_msg']
